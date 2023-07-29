@@ -1,0 +1,108 @@
+state
+cycke de vie du composant
+jsx
+hooks
+
+
+
+
+state:
+
+Imaginez que vous avez une application de liste de tâches (to-do list).
+Chaque fois que vous ajoutez une tâche, cochez une case pour la marquer comme terminée ou supprimez une tâche,
+les données changent, n'est-ce pas ? Ces données sont gérées grâce à l'état.
+
+En React, l'état est utilisé pour stocker et suivre ces données qui peuvent être modifiées au fil du temps.
+Lorsque l'état change, React se charge de mettre à jour automatiquement l'interface utilisateur pour refléter ces changements.
+
+Dans les composants React, vous pouvez déclarer un état en utilisant le hook useState. 
+
+
+
+
+
+
+cycle de vie d'un composant:
+
+Le cycle de vie d'un composant en React est comme le parcours d'un personnage depuis sa naissance (création)
+jusqu'à sa disparition (suppression). Voici les trois principales étapes du cycle de vie :
+
+-Montage (Mounting) : C'est la naissance du composant, sa première apparition dans l'interface utilisateur.
+-Mise à jour (Updating) : C'est la vie active du composant, où il réagit aux changements et interagit avec l'environnement.
+-Démontage (Unmounting) : C'est la fin de la vie du composant, où il est retiré de l'interface utilisateur.
+Mais, pour comprendre le concept de manière simple, pensez simplement à la naissance,
+la vie active et la disparition d'un personnage dans une histoire, c'est un peu comme le cycle de vie d'un composant en React
+
+
+
+
+JSX:
+
+JSX, abréviation de "JavaScript XML", est une extension de syntaxe utilisée dans React pour décrire la structure des interfaces utilisateur (UI).
+C'est une façon de définir la présentation d'un composant React en utilisant une syntaxe qui ressemble à du HTML,
+mais qui est en réalité une représentation du code JavaScript.
+
+JSX permet aux développeurs de décrire l'apparence des composants de manière plus intuitive et familière, 
+ce qui facilite la création d'interfaces utilisateur complexes et interactives.
+Plutôt que d'utiliser des méthodes telles que React.createElement pour créer les éléments React,
+vous pouvez écrire du JSX pour décrire la hiérarchie des composants de manière déclarative.
+
+Lorsque vous utilisez JSX, un transpileur (comme Babel) est généralement utilisé pour convertir le code JSX en JavaScript pur,
+compréhensible par les navigateurs. Le code JSX est donc transformé en appels à React.createElement pour créer les éléments React appropriés.
+
+
+
+
+
+
+Hooks:
+
+
+Bien sûr ! Les hooks sont une fonctionnalité de React qui permettent aux développeurs d'utiliser l'état et
+d'autres fonctionnalités dans les composants fonctionnels, sans avoir besoin d'utiliser des composants de classe.
+Ils rendent le code plus simple, plus lisible et plus facile à comprendre.
+
+Auparavant, si vous vouliez gérer l'état ou utiliser d'autres fonctionnalités avancées dans un composant,
+vous deviez utiliser une classe. Les hooks ont été introduits pour résoudre ce problème et
+rendre les composants fonctionnels aussi puissants que les composants de classe, tout en étant plus courts et plus agréables à écrire.
+
+Les hooks les plus couramment utilisés sont useState, qui permet de déclarer et de gérer l'état local,
+et useEffect, qui permet d'effectuer des actions après le rendu du composant, comme des appels API ou des modifications du DOM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hey, Thanks for downloading the template! Please note we don't reserved the copy rights for used images.
+If you like our templates, 
+
+do not forget to register to our newsletter.
+
+Cheers
+-- Designstub
+
